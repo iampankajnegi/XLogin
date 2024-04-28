@@ -27,11 +27,15 @@ e.preventDefault();
 
 if(username === "User" && password === "Password"){
 
-    setMessage("Welcome, user");
+    let  WelcomeUser = <h1>Welcome , user</h1>
+
+    setMessage("WelcomeUser");
 }
   else{
 
-     setMessage("Invalid username or password");
+    let Invalid = <h1>Invalid username or password</h1>
+
+     setMessage("Invalid");
   }     
   }
 
