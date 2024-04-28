@@ -10,16 +10,16 @@ const Login = () => {
 
    const handleUserChange = (e) =>{
 
-       let {name , value } = e.target
+    
 
-       setUser({...username ,[name]:value})
+       setUser(e.target.value)
    }
 
    const handleStateChange = (e) =>{
 
-    let {name , value } = e.target
+    
 
-    setPass({...password ,[name]:value})
+    setPass(e.target.value)
    }
 
   const handleSubmit =(e)=>{
