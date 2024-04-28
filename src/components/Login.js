@@ -12,14 +12,14 @@ const Login = () => {
 
        let {name , value } = e.target
 
-       setUser({...preState ,[name]:value})
+       setUser({...username ,[name]:value})
    }
 
    const handleStateChange = (e) =>{
 
     let {name , value } = e.target
 
-    setPass({...preState ,[name]:value})
+    setPass({...password ,[name]:value})
    }
 
   const handleSubmit =(e)=>{
