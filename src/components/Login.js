@@ -27,11 +27,11 @@ e.preventDefault();
 
 if(username === "User" && password === "Password"){
 
-    setMessage("Welcome, user!");
+    setMessage(<h1>Welcome, user</h1>);
 }
   else{
 
-     setMessage("Invalid username or password");
+     setMessage(<h1>Invalid username or password</h1>);
   }     
   }
 
