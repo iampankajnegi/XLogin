@@ -25,9 +25,9 @@ const Login = () => {
   const handleSubmit =(e)=>{
 e.preventDefault();
 
-if(username === "User" && password === "Password"){
+if(username === "user" && password === "password"){
 
-    setMessage(<p>Welcome, user</p>);
+    setMessage(<p>{"Welcome, user"}</p>);
 }
   else{
 
@@ -54,9 +54,11 @@ if(username === "User" && password === "Password"){
                 
             </form>
      
-              <div className='result'>{message}</div>
+              
 
         </div>
+
+        <div className='result'>{message}</div>
     </div>
   )
 }
